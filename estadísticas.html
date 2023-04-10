@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Estadisticas</title>
+		<!-- Link a Data Table -->
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />		
+	 <!-- CDN de Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"></script>
+			
+			<!-- Estilos globales -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button
+					class="navbar-toggler shadow-none"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/index.html"
+								>Inicio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#products">Productos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/estadísticas.html">Estadisticas</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<h1 class="text-center fs-1 py-2 fw-bold">Estadisticas</h1>
+
+		<div class="container border p-5 rounded rounded-1 container-table">
+			<table id="myTable" class="table table-responsive">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Nombre</th>
+						<th>Descripcion</th>
+						<th>Precio</th>
+						<th>Categoría</th>
+						<th>Sucursal</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>#1</td>
+						<td>Laptop</td>
+						<td>Notebook E41-50 Intel i3-1005 14" HD 8GB 256GB SSD</td>
+						<td>$569.000</td>
+						<td>Tecnología</td>
+						<td>Santiago</td>
+					</tr>
+
+					<tr>
+						<td>#2</td>
+						<td>Computadora</td>
+						<td>Computadora gamer rgb</td>
+						<td>$600.000</td>
+						<td>Tecnología</td>
+						<td>Santiago</td>
+					</tr>
+
+					<tr>
+						<td>#3</td>
+						<td>Notebook</td>
+						<td>Notebook E41-50 Intel i3-1005 14" HD 8GB 256GB SSD</td>
+						<td>$899.000</td>
+						<td>Tecnología</td>
+						<td>Santiago</td>
+					</tr>
+
+					<tr>
+						<td>#4</td>
+						<td>Tv</td>
+						<td>TV 3220TH 32" HD</td>
+						<td>$20.000</td>
+						<td>Tecnología</td>
+						<td>Santiago</td>
+					</tr>
+					<tr>
+						<td>#5</td>
+						<td>Google</td>
+						<td>
+							Disfruta de contenido Full HD desde tu dispositivo móvil favorito con el
+							Google Chromecast de tercera generación de carbón </td>
+						</td>
+						<td>$45.000</td>
+						<td>Tecnología</td>
+						<td>Santiago</td>
+					</tr>
+          
+          <tr>
+						<td>#6</td>
+						<td>Antivirus</td>
+						<td>Bitdefender Antivirus 3 PC, 1 Año</td>
+						<td>$13.990</td>
+						<td>Sofware</td>
+						<td>Copiapo</td>
+					</tr>
+          
+          <tr>
+						<td>#7</td>
+						<td>Juegos PC</td>
+						<td>Dragon Age: Inquisition PC</td>
+						<td>$14.990</td>
+						<td>Games</td>
+						<td>Copiapo</td>
+					</tr>
+          
+          
+          <tr>
+						<td>#8</td>
+						<td>Juegos PC</td>
+						<td>Dragon Age 2: Inquisition PC</td>
+						<td>$17.990</td>
+						<td>Viña del mar</td>
+						<td>Concepcion</td>
+					</tr>
+          
+          
+          <tr>
+						<td>#9</td>
+						<td>Microsoft</td>
+						<td>Promoción M365 15 meses Personal Digital - 12 Meses + 3</td>
+						<td>$49.000</td>
+						<td>Sofware</td>
+						<td>Antofagasta</td>
+					</tr>
+          
+          
+          
+          <tr>
+						<td>#10</td>
+						<td>Playstation</td>
+						<td>Dragon Age: Inquisition PC</td>
+						<td>$489.000</td>
+						<td>Consola</td>
+						<td>Rancagua</td>
+					</tr>
+          
+          
+          
+				</tbody>
+			</table>
+		</div>
+		
+		<!-- script de Jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.4.js"
+			integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+		<script src="./assets/js/estadisticas.js"></script>
+	</body>
+</html>

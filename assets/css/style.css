@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+}
+
+.imagHeigh {
+	height: 300px;
+	width: 350px;
+	object-fit: contain;
+	transition: 0.2s ease-in-out;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.imagHeigh:hover {
+	transform: scale(1.1);
+	box-shadow: 0.5px 1px 10px rgba(0, 0, 0, 0.04);
+}
+
+.container-table {
+	overflow-x: auto;
+}
